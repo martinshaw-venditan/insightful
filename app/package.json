@@ -1,0 +1,19 @@
+{
+  "name": "insightful",
+  "productName": "insightful",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Martin Shaw",
+    "email": "mshaw@venditan.com",
+    "url": "https://github.com/martinshaw-venditan/insightful"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../internals/scripts/BabelRegister.js ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
