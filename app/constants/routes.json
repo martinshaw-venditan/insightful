@@ -1,4 +1,6 @@
 {
   "HOME": "/",
-  "COUNTER": "/counter"
+  "TASKS": "/tasks",
+  "TASK_SPRINTS": "/task_sprints",
+  "UTILITIES": "/utilities"
 }

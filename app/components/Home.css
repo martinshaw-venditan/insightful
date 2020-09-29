@@ -1,14 +1,38 @@
 .container {
-  position: absolute;
-  top: 30%;
-  left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
   text-align: center;
 }
 
-.container h2 {
-  font-size: 5rem;
+.container div:first-child {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
-.container a {
-  font-size: 1.4rem;
+.container img {
+  margin: auto;
+  width: 200px;
+}
+
+.container div:last-child {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#ccc, #eee);
+  box-shadow: 0 0 10px #888, inset 0 0 3px white;
+}
+
+.container button {
+  padding: 10px 20px;
+  font-size: 0.8rem;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
 }

@@ -1,0 +1,26 @@
+nav.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(#fff, #ccc);
+  box-shadow: 0 0 10px #aaa/*, inset 0 0 3px white*/;
+  border-bottom: 1px solid #bbb;
+}
+
+nav.main a {
+  margin: 0 2px;
+}
+
+nav.main a button {
+  padding: 5px 20px;
+  font-size: 0.8rem;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+}
